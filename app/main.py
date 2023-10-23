@@ -3,7 +3,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-# app.include_router(service.router, prefix="/tracking")  # Add the service routes
+# app.include_router(service.router, prefix="/service")  # Add the service routes
 
 if __name__ == "__main__":
     import uvicorn
